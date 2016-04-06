@@ -4,15 +4,14 @@ Using this small helper library, you can set the timer configuration of your int
 ## Installation
 Primary use of this library is in a raspbian environment. But it should work in any debian-based distro.
 
-First install some packages:
+First install some packages using apt-get:
 ```
-sudo apt-get install bluez python-bluez python-pip git
+sudo apt-get install bluez python-bluez python-pip
 ```
 
-Then you are ready to install this library.
+Installation using pip:
 ```
-git clone https://github.com/smart-home-technology/it-btswitch-python.git
-pip install -e it-btswitch-python
+pip install intertechno
 ```
 
 For more information about controlling intertechno devices with a raspberry pi check out:
