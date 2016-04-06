@@ -14,7 +14,7 @@ from os import path
 here = path.abspath(path.dirname(__file__))
 
 # Get the long description from the relevant file
-with open(path.join(here, 'README.md'), encoding='utf-8') as f:
+with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 with open(path.join(here, 'intertechno', 'VERSION'), encoding='utf-8') as version_file:
@@ -34,6 +34,7 @@ setup(
     author_email='code@smart-home-technology.ch',
 
     license='MIT',
+    platforms=['any'],
 
     # See https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
@@ -45,7 +46,8 @@ setup(
         'License :: OSI Approved :: MIT License',
 
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 2'
+        'Programming Language :: Python :: 2',
+        'Operating System :: OS Independent'
     ],
 
     keywords='intertechno interface control home automation device',
