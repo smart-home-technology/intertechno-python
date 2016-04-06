@@ -53,6 +53,8 @@ setup(
     keywords='intertechno interface control home automation device',
 
     packages=['intertechno'],
+    
+    package_data={'intertechno': ['VERSION']},
 
     install_requires=[],
 
