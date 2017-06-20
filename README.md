@@ -15,7 +15,7 @@ pip install intertechno
 ```
 
 For more information about controlling intertechno devices with a raspberry pi check out:
-https://smart-home-technology.ch/en/blog/control-your-intertechno-devices-with-a-raspberry-pi
+http://www-2016.1.smart-home-technology.ch/en/blog/control-your-intertechno-devices-with-a-raspberry-pi
 
 ## Example
 ```
